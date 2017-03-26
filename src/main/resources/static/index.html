@@ -2,13 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Test</title>
+    <title>Super Awesome Java To-Do List</title>
     <link rel="stylesheet" type="text/css" href="webjars/bootstrap/3.3.7-1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="webjars/bootstrap/3.3.7-1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="webjars/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<h1>Test</h1>
+<div class="container-fluid">
+    <!-- Header -->
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <h1>
+                Super Awesome To-Do List
+            </h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <h3>
+                <em>Now in Java </em>
+                <i class="fa fa-coffee"></i>
+            </h3>
+        </div>
+    </div>
+    <hr>
+    <!-- Body: Input Form -->
+    <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Add item to to-do list...">
+                <span class="input-group-btn">
+                    <button class="btn btn-info" type="button">Add</button>
+                </span>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Body: Output List -->
+    <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+            <div class="list-group">
+                <a href="#" class="list-group-item">Lorem ipsum dolor sit amet</a>
+                <a href="#" class="list-group-item">Consectetur adipiscing elit</a>
+                <a href="#" class="list-group-item">Morbi iaculis scelerisque venenatis</a>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script type="text/javascript" src="webjars/jquery/3.2.0/jquery.min.js"></script>
 <script type="text/javascript" src="webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="webjars/angularjs/1.6.2/angular.min.js"></script>
 </body>
 </html>
