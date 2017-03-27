@@ -25,8 +25,8 @@ public class ToDoItemTests {
     public void should_exist() {
         // Given
         // When
-        // Then
         Throwable error = catchThrowable(() -> Class.forName("com.taurvi.todo.ToDoItem"));
+        // Then
         assertThat(error).isNull();
     }
 
