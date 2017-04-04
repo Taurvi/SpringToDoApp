@@ -1,8 +1,14 @@
 package com.taurvi.todo;
 
+import lombok.AccessLevel;
+import lombok.Data;
+import lombok.Setter;
+
+@Data
 public class ToDoItem {
-    private String description;
-    private long timestamp;
+    private final String description;
+    private final long timestamp;
+    @Setter(AccessLevel.NONE)
     private boolean done;
 
     public ToDoItem(String description) {
@@ -16,17 +22,5 @@ public class ToDoItem {
 
     public void toggleDone() {
         done = !done;
-    }
-
-    public long getTimestamp() {
-        return timestamp;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public boolean isDone() {
-        return done;
     }
 }

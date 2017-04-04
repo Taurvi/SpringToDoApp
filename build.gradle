@@ -28,6 +28,7 @@ dependencies {
     compile "org.webjars:bootstrap:3.3.7-1"
     compile "org.webjars:font-awesome:4.7.0"
     compile "org.webjars:angularjs:1.6.2"
+    compile "org.projectlombok:lombok:1.16.16"
     testCompile "org.assertj:assertj-core:3.6.2"
     testCompile "junit:junit:4.12"
 }
