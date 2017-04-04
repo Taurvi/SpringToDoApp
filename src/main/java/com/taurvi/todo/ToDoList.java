@@ -1,6 +1,5 @@
 package com.taurvi.todo;
 
-import com.sun.xml.internal.bind.v2.TODO;
 import lombok.Data;
 
 import java.util.ArrayList;
@@ -11,7 +10,7 @@ public class ToDoList {
     private List<ToDoItem> list;
 
     public ToDoList() {
-        this.list = new ArrayList<ToDoItem>();
+        this.list = new ArrayList<>();
     }
 
     public void add(ToDoItem toDoItem) {
